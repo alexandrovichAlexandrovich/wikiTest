@@ -1,4 +1,4 @@
-Notes: Sometimes, this test may return as failed on its first run. This is rare, but simply running it a second time or recloning the repository fixes the issue.
+Notes: Sometimes, this test may return as failed on its first run--simply running it a second time or recloning the repository should fix the issue.
 
 Also, some antivirus programs may set up a protection that flags the web driver as fishy behavior. If Firefox redirects to an "Insecure connection" alert page upon loading the test, try disabling your web protection software for the time being.
 
