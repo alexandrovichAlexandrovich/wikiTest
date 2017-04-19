@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.concurrent.TimeUnit;
+
 @RunWith(SerenityRunner.class)
 public class AppTest {
 
@@ -34,6 +36,7 @@ public class AppTest {
         wikipediaTester.selectsLanguageOption(languageOptions.shorthandOf("English"));
 
         // THEN
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         wikipediaTester.seesCorrespondingPage(languageOptions.welcomeMessageIn("English"));
         driver.close();
         driver.quit();
