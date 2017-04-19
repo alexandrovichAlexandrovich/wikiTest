@@ -20,7 +20,7 @@ Download and usage instructions (Mac OS):
     
         System.setProperty("webdriver.gecko.driver", "<directory of Gecko Driver>");
     
-    3. In Terminal, navigate to the root directory (wikiTest) of the project. If you just downoaded it, you should already be at its parent directory.
+    3. In Terminal, navigate to the root directory (wikiTest) of the project. If you just downloaded it, you should already be at its parent directory.
     
         >> cd wikiTest
     
