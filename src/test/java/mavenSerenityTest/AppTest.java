@@ -36,7 +36,7 @@ public class AppTest {
         wikipediaTester.selectsLanguageOption(languageOptions.shorthandOf("English"));
 
         // THEN
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         wikipediaTester.seesCorrespondingPage(languageOptions.welcomeMessageIn("English"));
         driver.close();
         driver.quit();
