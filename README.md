@@ -14,7 +14,6 @@ Download and usage instructions (Mac OS):
     1. Once everything has been installed, navigate to the directory to which you would like to download this project. Initialize git and clone the repository.
     
         >> cd <directory>
-        >> git init
         >> git clone https://github.com/daniilFeoktistov/wikiTest.git
 
     2. Open /src/test/java/mavenSerenityTest/AppTest.java. On line 25, set the second parameter of System.setProperty() within each @Test case to the path of your Gecko Driver installation.
