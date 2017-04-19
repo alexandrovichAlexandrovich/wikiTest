@@ -30,7 +30,9 @@ Download and usage instructions (Mac OS):
 
 Overview:
 
-    This test uses Maven to load Serenity, Selenium, and JUnit in order to test that links on Wikipedia's home page direct to the proper language. All it requires for input is the name of the language to be tested-currently supports "English", "Italian", and "Polish".
+    This test uses Maven to load Serenity, Selenium, and JUnit in order to test that links on Wikipedia's home page direct to the proper language.
+    
+    All it requires for input is the name of the language to be tested-currently supports "English", "Italian", and "Polish".
 
      LanguageToShorthand is a simple implementation of a Hashtable storing metadata for each language on Wikipedia's page:
         1. A language's corresponding two-letter URL prefix (i.e. "English" -> "en")
